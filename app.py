@@ -16,6 +16,7 @@ df = pd.read_csv("data/data.csv")
 
 # I will start by initializing the Dash app
 app = dash.Dash(__name__)  # This is for creating a Dash application
+server = app.server
 
 # This is my block for the App layout
 # this is for defining the HTML layout using Dash HTML components
