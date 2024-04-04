@@ -139,5 +139,6 @@ def update_graphs(selected_country, year_range):
     return line_fig, box_fig
 
 # YAY!!! Run the app
+
 if __name__ == '__main__':
     app.run_server(debug=True)
