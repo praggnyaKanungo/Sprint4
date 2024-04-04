@@ -12,7 +12,7 @@ import pandas as pd  # This is in case I need to manipulate some data for the gr
 # First iam just making a data_path for loading my data
 # here I am defining the path to the data file
 # I am reading the data into a pandas DataFrame
-df = pd.read_csv("data/data.csv")
+df = pd.read_csv("data/co2_per_capita.csv")
 
 # I will start by initializing the Dash app
 app = dash.Dash(__name__)  # This is for creating a Dash application
