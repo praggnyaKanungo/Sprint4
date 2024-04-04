@@ -139,4 +139,4 @@ def update_graphs(selected_country, year_range):
 
 # YAY!!! Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)  
+    app.run_server(debug=True)
